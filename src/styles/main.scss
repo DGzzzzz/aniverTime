@@ -29,6 +29,11 @@ body, html {
     border-radius: 30px 30px;
     margin-bottom: 180px;
 
+    @media (max-width: 667px) {
+        font-size: 8px;
+        margin-bottom: 100px;
+    }
+
     &__title {
         &__text {
             padding-top: 14px;
